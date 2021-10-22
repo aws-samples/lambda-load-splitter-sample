@@ -1,0 +1,7 @@
+# This is the standard python file for specifying the required set of libraries
+# for running the code in the contained modules.
+#
+# To use this file, run "pip install -r requirements.txt", and the required
+# libraries will be installed.
+
+boto3==1.18.61

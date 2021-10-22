@@ -1,0 +1,13 @@
+# This is the standard python file for specifying the required set of libraries
+# for testing the code in the contained modules. It pulls in the standard
+# 'requirements.txt' file first, then adds the required libraries used in testing
+#
+# To use this file, run "pip install -r requirements_dev.txt", and the required
+# libraries will be installed.
+
+-r requirements.txt
+
+mock==4.0.3
+moto==2.2.9
+pytest==6.2.5
+tox==3.24.4

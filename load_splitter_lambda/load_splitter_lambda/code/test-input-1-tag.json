@@ -1,0 +1,17 @@
+{
+    "detail": {
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "CreateTags",
+        "awsRegion": "us-west-2",
+        "requestParameters": {
+            "resourcesSet": {
+                "items": [ { "resourceId": "i-00000000000000000" } ]
+            },
+            "tagSet": {
+                "items": [
+                    { "key": "tag-key-1", "value": "tag-value-1" }
+                ]
+            }
+        }
+    }
+}
