@@ -86,8 +86,8 @@ Alternatively, if you don't want `pip` installing libraries in your current envi
 To deploy the sample code to your Amazon account, execute the following:
 
 * (optional) create a terraform.tfvars and set the 'prefix' variable
-* terraform init
-* terraform apply
+* `terraform init`
+* `terraform apply`
 
 # Executing the Sample
 
@@ -96,7 +96,7 @@ To deploy the sample code to your Amazon account, execute the following:
 You can execute the Lambda manually from the AWS Console to verify that it works correctly. Use one of the following JSON test input files which are deployed with the Lambda from the code/ folder, allowing you to easily access them from the AWS Console:
 
 - `code/test-input-1-tag.json`  (JSON CloudTrail event announcing the creation of 1 tag)
-- `code/test-input-5-tags.json` (JSON CloudTrail event announcing the creation of 3 tags)
+- `code/test-input-5-tags.json` (JSON CloudTrail event announcing the creation of 5 tags)
 
 To use these test input files, go to the Lambda "Test" tab for the function and create a new test event. Paste in the contents of one of the files and give the test event a name. Then execute the Test.
 
